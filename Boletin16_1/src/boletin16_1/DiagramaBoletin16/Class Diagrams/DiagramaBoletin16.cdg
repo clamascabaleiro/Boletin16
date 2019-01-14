@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Boletin16_1" package="boletin16_1" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Canario" package="boletin16_1" visibility="public" xPosition="38.0" yPosition="276.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Galo" package="boletin16_1" visibility="public" xPosition="241.0" yPosition="359.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Persoa" package="boletin16_1" visibility="public" xPosition="478.0" yPosition="359.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Ipodecantar" package="boletin16_1" visibility="public" xPosition="320.0" yPosition="45.0">
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin16_1.Canario" target="boletin16_1.Ipodecantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin16_1.Persoa" target="boletin16_1.Ipodecantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin16_1.Galo" target="boletin16_1.Ipodecantar"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
